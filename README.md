@@ -6,7 +6,7 @@
 
 This project leverages machine learning (LightGBM) to perform multi-class fault prediction on the **UCI Steel Plates Faults Data Set**. Beyond prediction, it integrates the **SHAP (SHapley Additive exPlanations)** framework to deconstruct the "black box" model, providing a deep dive into the key physical features driving specific defects—with a special focus on "Stains."
 
-## 📊 Project Results Overview
+##  Project Results Overview
 
 Through SHAP analysis, we revealed the deep connections between sensor data and fault types.
 
@@ -51,7 +51,7 @@ Through SHAP analysis, we revealed the deep connections between sensor data and 
 
 ---
 
-## 🛠 Tech Stack & Workflow
+##  Tech Stack & Workflow
 
 ### Data Processing Pipeline
 1.  **Data Source:** UCI Machine Learning Repository (Steel Plates Faults).
@@ -68,7 +68,7 @@ Used `shap.TreeExplainer` to interpret the trained model:
 * **Multi-class Support:** Extracted SHAP values specifically for the "Stains" class.
 * **Visualization:** Summary Plot (Bar & Beeswarm) and Dependence Plot.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Dependencies
 Ensure the following Python libraries are installed:
