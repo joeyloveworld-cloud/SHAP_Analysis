@@ -8,10 +8,9 @@ This project leverages machine learning (LightGBM) to perform multi-class fault 
 
 ##  Project Results Overview
 
-Through SHAP analysis, we revealed the deep connections between sensor data and fault types.
+Through SHAP analysis, I revealed the deep connections between sensor data and fault types.
 
 ### 1. Global Feature Importance
-*Which sensor readings drive the model's decision-making across all 7 fault types?*
 
 ![Global Feature Importance](1.png)
 
@@ -25,7 +24,6 @@ Through SHAP analysis, we revealed the deep connections between sensor data and 
 ---
 
 ### 2. Risk Factor Analysis for "Stains" (Beeswarm Plot)
-*What drives the risk for the "Stains" fault?*
 
 ![Beeswarm Plot](2.png)
 
@@ -39,7 +37,6 @@ Through SHAP analysis, we revealed the deep connections between sensor data and 
 ---
 
 ### 3. Deep Dependence Analysis: The Impact of V4
-*Investigating the non-linear relationship between the key feature V4 and "Stains" risk.*
 
 ![Dependence Plot](3.png)
 
